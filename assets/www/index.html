@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width; initial-scale=1">
+            <meta charset = "utf-8">
+                <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+                    <link  href ="nut.css" rel="stylesheet" type = "text/css">                        
+    </head>
+
+    <body>
+        <!--------------------------------------------------HOME------------------------------------------------->
+        <div data-role="page" id="home">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip" class="first"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip" class="last"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </ul>
+            </div>
+            <canvas id="canvas1" width="800" height="400"></canvas>
+            <div id="backgroundaudio">
+                <i class="icon-volume-up"></i>
+                <audio id="aud" autoplay="" controls="" loop="" preload="">
+                    <source src="songMP3.mp3" type="audio/mpeg"></source>
+                    <source src="songOGG.ogg" type="audio/ogg"></source>
+                </audio>
+            </div>
+            <div data-role="navbar" class="custom-navbar">
+                <ul style="bottom:40px;position:fixed;width:100%">
+                    <li><a href="#about" data-role = "button" class="ui-btn-center" style="color:white;" data-transition="flip">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------ABOUT-------------------------------------------------->
+        <div data-role="page" id="about">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip" class="first"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip" class="last"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                    </uL>
+                </div>
+            <p>Written by <a style="color:white;" href="mailto:piankhysalomon@gmail.com">Piankhy Salomon</a><br></p>
+            <p>Stem-in-a-nutshell: STEM is an acronym for “Science, Technology, Engineering and Mathematics.” It’s an acronym to describe a type of curriculum in school – from kindergarten through college. The idea behind STEM is to make the United States more competitive in technology development by bringing up generations of students who can excel in high-tech jobs (we like to call this generation, “STEMists”.) Without these STEMists, the U.S. could face a workplace development and immigration crisis.</p>
+            <p> To use this app, simply press a button in the "Nutrio-Nav-Bar" to learn about a food group. Put your learning into action and "Choose Food" and test your knowledge with a quiz!</p>
+            <p>I claim no ownership of the media found in this app.</p>
+            <p>Music: The Blackbyrds - Reggins</p>
+            <p>If you'd like to learn more about nutrition click the references button</p>
+           
+            <div data-role="navbar" class="custom-navbar">
+                <ul style="bottom:0;position:fixed;width:100%">
+                    <li><a href = "#home" data-role = "button" style="color:white;" data-transition="flip">Home</a></li>
+                    <li><a href="#vid" data-role = "button" style="color:white;" data-transition="flip">Video</a></li>
+                    <li><a href="#references" data-role = "button" style="color:white;" data-transition="flip">References</a></li>
+                </ul>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        <!--------------------------------------------------VIDEO-------------------------------------------------->
+        <div data-role="page" id="vid">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip" class="first"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip" class="last"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </uL>
+            </div>
+            
+             <video id="viddy"class="center" controls="controls" width="800" height="600" src="thisvid.m4v"></video>
+            <div data-role="navbar" class="custom-navbar">
+                <ul style="bottom:0;position:fixed;width:100%">
+                    <li><a href="#home" data-role = "button"  style="color:white;" data-transition="flip">Home</a></li>
+                </ul>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        
+        <!--------------------------------------------------REFERENCES-------------------------------------------------->
+        <div data-role="page" id="references">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip" class="first"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip" class="last"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </uL>
+            </div>
+          <a href="http://healthy-kids.com.au/food-nutrition/">Healthy Kids</a><br>
+           <a href="http://www.choosemyplate.gov/">My Plate</a><br>
+            <a href="http://www.superkidsnutrition.com/">Super Kids Nutrition</a><br>
+             <a href="http://www.nutrition.gov/">Nutrition</a><br>
+          <div data-role="navbar" class="custom-navbar">
+                <ul style="bottom:0;position:fixed;width:100%">
+                    <li><a href="#home" data-role = "button"  style="color:white;" data-transition="flip">Home</a></li>
+                    <li><a href="#about" data-role = "button"  style="color:white;" data-transition="flip">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------QUIZ-------------------------------------------------->
+        <div data-role="page" data-control-title="Home" id="quiz">
+            <div data-role="content">
+                <h2 id="test_status"></h2>
+                <p  id="test" style="text-align:center; color:white; background:#0493e5; width:95%;"></p>
+            </div>
+            <div data-role="navbar" class="custom-navbar">
+                <ul style="bottom:0;position:fixed;width:100%">
+                    <li><a href="#home" data-role = "button" class="ui-btn-center" style="color:white;" data-transition="flip">Home</a></li>
+                </ul>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------PROTEIN-------------------------------------------------->
+        <div data-role="page" id="proteinDrag" data-add-back-btn="true" data-dialog="true">
+            <div data-role="header" style="background:#0493e5">
+                <h1 style="color:white;">Protein</h1>
+            </div>
+            <p>Drag the food that can help you build lean muscle to the plate</p>
+            <div id="droppable" class="ui-widget-header "><img src="plate.png"></div>
+            <br style="clear:both">
+            <div id="yesDrag" class="draggable ui-widget-content" style="text-align:middle;"><img src="chicken 2.png"></div>
+            <div id="noDrag" class="draggable ui-widget-content" style="text-align:left;"><img src="banana.png"></div>
+        </div>
+        <div data-role="page" id="protein">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </ul>
+            </div>
+                <h2>PROTEIN</h2>
+                <h5>What is protein?</h5>
+                <p>Protein is, of course, a vital component of a healthy diet. The proteins you eat (and the proteins in your body) are all made up of small units, called amino acids. You often hear amino acids described as “building blocks” because these small individual units are assembled in various ways to build proteins. Think of amino acids in  as letters of the alphabet.  We use just 26 letters to make up all of the words that we write and speak.  Some words are short, some are long – but we create millions of words from just 26 letters.  And, the final sequence of the letters is what gives each word its sound, and its meaning. Similarly, there are 20 amino acids that can be strung together to make protein.</p>
+                <h5>What are the Benefits of protein?</h5>
+                <p> Protein can aide: Speeding recovery after exercise, Reducing muscle loss, Building lean muscle, Helping you maintain a healthy weight
+                Curbing hunger.</p>
+                <h5>What foods contain protein?</h5>
+                <p>Protein comes from a variety of sources, including meat, milk, fish, soy, and eggs, as well beans, legumes, and nut butters.
+                Different foods have different kinds of protein. Foods like milk and yogurt have casesin and whey. Where food's like meat and fish have
+                collagen and myosin.</p>
+                <div data-role="navbar" class="custom-navbar">
+                    <ul style="bottom:0;position:fixed;width:100%">
+                        <li><a href="#home" data-role = "button" style="color:white;" data-transition="flip">Home</a></li>
+                          <li><a href="#proteinDrag" class="ui-shadow ui-btn ui-corner-all ui-btn-inline"  style="color:white;" data-transition="flip">Choose Food</a></li>
+                        <li><a href="#quiz" data-role = "button" style="color:white;" data-transition="flip">Quiz</a></li>
+                    </ul>
+                </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------DAIRY-------------------------------------------------->
+        <div data-role="page" id="dairyDrag" data-add-back-btn="true" data-dialog="true">
+            <div data-role="header" style="background:#0493e5">
+                <h1 style="color:white;">Dairy</h1>
+            </div>
+            <p>Drag the food that is a good source of calcium to the plate</p>
+            <div id="droppable1" class="ui-widget-header"style="text-align:center;"><img src="plate.png"></div>
+            <div id="noDrag1" class="draggable ui-widget-content" style="text-align:left;"><img src="bread.png"></div>
+            <div id="yesDrag1" class="draggable ui-widget-content" style="text-align:middle;"><img src="milk.png"></div>
+       </div>
+       <div data-role="page" id="dairy">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </ul>
+            </div>
+            <h2>DAIRY</h2>
+            <h5>What is dairy?</h5>
+            <p>The foods in this group are excellent sources of calcium, which is important for strong, healthy bones. Not many other foods in our diet contain as much calcium as dairy foods. They also provide important nutrients such as protein, iodine, riboflavin and Vitamin B12.</p>
+            <h5>What are the Benefits of dairy?</h5>
+            <p> Think of your bones as a bank for calcium. If calcium is not deposited into the bank, it will be taken out and used in other areas of the body when needed, which can result in weak, brittle bones. Bones reach their peak density somewhere around age 20-25, so it’s important that calcium is consumed regularly throughout childhood, the teen years and even into the twenties and beyond to ensure bones are at their strongest.</p>
+            <h5>What foods contain dairy?</h5>
+            <p>Cheese, milk, yogurt.Other milk-based products such as ice cream, fromage frais and dessert style custards or mousse do provide some calcium from milk, however they are likely to be high in saturated fat and sugar so they should not be eaten regularly.</p>
+                <div data-role="navbar" class="custom-navbar">
+                    <ul style="bottom:0;position:fixed;width:100%">
+                        <li><a href = "#home" data-role = "button" style="color:white;" data-transition="flip">Home</a></li>
+                         <li><a href="#dairyDrag" class="ui-shadow ui-btn ui-corner-all ui-btn-inline"  style="color:white;" data-transition="flip">Choose Food</a></li>
+                        <li><a href="#quiz" data-role = "button" style="color:white;" data-transition="flip">Quiz</a></li>
+                    </ul>
+                </div>
+        </div>
+       <!---------------------------------------------------->
+       
+       <!--------------------------------------------------GRAINS-------------------------------------------------->
+       <div data-role="page" id="grainsDrag" data-add-back-btn="true" data-dialog="true">
+           <div data-role="header" style="background:#0493e5">
+               <h1 style="color:white;">Grains</h1>
+           </div>
+           <p>Drag the food that would help you stay fuller to the plate</p>
+           <div id="droppable2" class="ui-widget-header"style="text-align:center;"><img src="plate.png"></div>
+           <div id="noDrag2" class="draggable ui-widget-content" style="text-align:left;"><img src="chicken 2.png"></div>
+           <div id="yesDrag2" class="draggable ui-widget-content" style="text-align:middle;"><img src="bread.png"></div>
+          
+       </div>
+        <div data-role="page" id="grains">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </ul>
+            </div>
+            <h2>GRAINS</h2>
+            <h5>What are grains?</h5>
+            <p>Breads and cereals are good sources of fibre, carbohydrates, protein and a wide range of vitamins and minerals.Whole grain foods are any foods that contain every part of the grain, including the outer layers, bran and germ. Processed, white grains have the bran removed which is where many of the nutrients are stored; they therefore end up having less nutritional value than whole grains. It is possible to purchase fortified grains and cereals in which the lost nutrients have been replaced by the manufacturer, however, wholegrain foods are still the best option.</p>
+            <h5>What are the benefits of grains?</h5>
+            <p> This food group should form the main source of kilojoules (energy) in the diet. Grains are an essential part of a healthy diet, providing nutrients and energy for a child’s normal growth and development. Grains provide a  continuous supply of energy from one meal to the next, which helps maintain energy and concentration levels and helps keep us feeling fuller for longer.</p>
+            <h5>What foods contain grains?</h5>
+            <p>The best grains are found in a wide variety of mostly whole grain and/or high fibre varieties of breads, cereals, rice, pasta, noodles, polenta, couscous, oats, quinoa and barley. The "not-so-good" grains" are refined grain (cereal) food products with high levels of added sugar, fat (in particular saturated fat) and/or salt/sodium, such as cakes and biscuits.</p>
+                <div data-role="navbar" class="custom-navbar">
+                    <ul style="bottom:0;position:fixed;width:100%">
+                        <li><a href = "#home" data-role = "button" style="color:white;" data-transition="flip">Home</a></li>
+                         <li><a href="#grainsDrag" class="ui-shadow ui-btn ui-corner-all ui-btn-inline"  style="color:white;" data-transition="flip">Choose Food</a></li>
+                        <li><a href="#quiz" data-role = "button" style="color:white;" data-transition="flip">Quiz</a></li>
+                    </ul>
+                </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------VEGETABLES-------------------------------------------------->
+        <div data-role="page" id="vegDrag" data-add-back-btn="true" data-dialog="true">
+            <div data-role="header" style="background:#0493e5">
+                <h1 style="color:white;">Vegetables</h1>
+            </div>
+            <p>Drag the food that is a good source of vitamins and mineral to the plate</p>
+            <div id="droppable3" class="ui-widget-header"style="text-align:center;"><img src="plate.png"></div>
+            <div id="yesDrag3" class="draggable ui-widget-content" style="text-align:middle;"><img src="cabbage.png"></div>
+            <div id="noDrag3" class="draggable ui-widget-content" style="text-align:left;"><img src="bread.png"></div>
+        </div>
+        <div data-role="page" id="vegetables">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#fruits" id="fruits" data-transition="flip"><abbr title="Fruits" rel="tooltip"><img src="strawberry-icon.png"  width="26" height="26"></abbr>
+                    </a></li>
+                </ul>
+            </div>
+            <h2>VEGETABLES</h2>
+            <h5>What are vegetables?</h5>
+            <p>Vegetables are foods that primarily provide provide vitamins, minerals, dietary fibre and many phytonutrients (nutrients naturally present in plants) that help your body stay healthy.</p>
+            <h5>What are the benefits of vegetables?</h5>
+            <p> Since vegetables are low in kilojoules (energy) relative to many other foods, including them every day can help prevent excessive weight gain. They may also help protect against chronic diseases such as heart disease, stroke and some types of cancers.</p>
+            <h5>What foods are vegetables?</h5>
+            <p> Different vegetables come in a range of colors, so choose a variety of colors everyday, such as: green (broccoli, spinach, peas)• orange (carrots, pumpkin, sweet potatoes)• yellow and red (capsicum, tomatoes, corn).• purple (beetroot and purple cabbage)s.</p>
+            <div data-role="navbar" class="custom-navbar">
+                <ul style="bottom:0;position:fixed;width:100%">
+                    <li><a href = "#home" data-role = "button" style="color:white;" data-transition="flip">Home</a></li>
+                         <li><a href="#vegDrag" class="ui-shadow ui-btn ui-corner-all ui-btn-inline"  style="color:white;" data-transition="flip">Choose Food</a></li>
+                    <li><a href="#quiz" data-role = "button" style="color:white;" data-transition="flip">Quiz</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------FRUITS-------------------------------------------------->
+        <div data-role="page" id="fruitDrag" data-add-back-btn="true" data-dialog="true">
+            <div data-role="header" style="background:#0493e5">
+                <h1 style="color:white;">Fruit</h1>
+            </div>
+            <p>Drag the food that comes in a variety of colors to the plate</p>
+            <div id="droppable4" class="ui-widget-header"style="text-align:center;"><img src="plate.png"></div>
+            <div id="yesDrag4" class="draggable ui-widget-content" style="text-align:middle;"><img src="banana.png"></div>
+            <div id="noDrag4" class="draggable ui-widget-content" style="text-align:left;"><img src="milk.png"></div>
+        </div>
+        <div data-role="page" id="fruits">
+            <div data-role = "navbar" data-iconpos = "left" class ="custom-navbar">
+                <ul>
+                    <li><a href="#protein" id="protein" data-transition="flip"><abbr title="Protein" rel="tooltip"><img src="meat-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#dairy" id="protein" data-transition="flip"><abbr title="Dairy" rel="tooltip"><img src="icecream-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#grains" id="grains" data-transition="flip"><abbr title="Grains" rel="tooltip"><img src="crop-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                    <li><a href="#vegetables" id="vegetables" data-transition="flip"><abbr title="Vegetables" rel="tooltip"><img src="carrot-2-icon.png" width="26" height="26"></abbr>
+                    </a></li>
+                </ul>
+            </div>
+            <h2>FRUITS</h2>
+            <h5>What are fruits?</h5>
+            <p>Fruits are foods that primarily provide provide vitamins, minerals, dietary fibre and many phytonutrients (nutrients naturally present in plants) that help your body stay healthy. Since fruit is low in kilojoules (energy) relative to many other foods, including it every day can help prevent excessive weight gain. Eating fruit may also help protect against chronic diseases such as heart disease, stroke and some types of cancers. You can even have your fruit in liquid form, with 100% fruit juices.</p>
+            <h5>What are the benefits of fruits?</h5>
+            <p> Since fruits are low in kilojoules (energy) relative to many other foods, including them every day can help prevent excessive weight gain. They may also help protect against chronic diseases such as heart disease, stroke and some types of cancers.</p>
+            <h5>What foods are fruits?</h5>
+            <p> Different fruit can help protect the body in different ways, so it’s important to choose a variety of colors everyday such as:• green (such as apples, grapes, kiwi fruit)• orange (such as oranges, mango, peaches)• yellow and red (such as strawberries, banana).• purple (blueberries, plums, grapes)</p>
+                <div data-role="navbar" class="custom-navbar">
+                    <ul style="bottom:0;position:fixed;width:100%">
+                        <li><a href = "#home" data-role = "button" style="color:white;" data-transition="flip">Home</a></li>
+                        <li><a href="#fruitDrag" class="ui-shadow ui-btn ui-corner-all ui-btn-inline"  style="color:white;" data-transition="flip">Choose Food</a></li>
+                        <li><a href="#quiz" data-role = "button" style="color:white;" data-transition="flip">Quiz</a></li>
+                    </ul>
+                </div>
+        </div>
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+        <script src="jquery.ui.mouse.mmin.js"></script>
+        <script src="jquery.ui.touch-punch.min.js"></script>
+        <script src="nut.js"></script>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------TEST SCRIPT-------------------------------------------------->
+        <script>
+            var pos = 0, test, test_status, question, choice, choices, chA, chB, chC;
+            var score=0;
+            var questions = [
+                             [ "Which food group should be your main source of energy?", "Dairy", "Grains", "Protein", "B" ],
+                             [ "Amino acids are found in?", "Vegetables", "Fruits", "Protein", "C" ],
+                             [ "This food group is often consumed as a liquid", "Fruits", "Protein", "Grains", "A" ],
+                             [ "To fortify your bones you should have plenty of this food group", "Dairy", "Vegetables", "Protein", "A" ],
+                             [ "Which food group provides essential vitamins and minerals to keep you healthy?", "Protein", "Grains", "Vegetables", "C" ]
+                            ];
+
+            function _(x){return document.getElementById(x);}
+        
+            function renderQuestion(){
+                test = _("test");
+                if(pos >= questions.length){
+                    test.innerHTML = "<h3> You got " +score+ " of " +questions.length+" questions correct </h3>";
+                    _("test_status").innerHTML = "Test Completed";
+                    pos = 0;
+                    score = 0;
+                    return false;
+                }
+                _("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
+                question = questions[pos][0];
+                chA = questions[pos][1];
+                chB = questions[pos][2];
+                chC = questions[pos][3];
+            
+                test.innerHTML = "<h3>"+question+"</h3>";
+                test.innerHTML += "<input type='radio' name='choices' value='A'/> "+chA+"<br>";
+                test.innerHTML += "<input type='radio' name='choices' value='B'/> "+chB+"<br>";
+                test.innerHTML += "<input type='radio' name='choices' value='C'/> "+chC+"<br><br>";
+                test.innerHTML += "<button onclick='checkAnswer()'>Submit Answer</button>";
+            }
+     
+            function checkAnswer(){
+                choices = document.getElementsByName("choices");
+                for(var i=0; i<choices.length; i++){
+                    if(choices[i].checked){choice = choices[i].value;}
+                }
+                if(choice == questions[pos][4]){score++;}
+            
+                pos++;
+                renderQuestion();
+            }
+            window.addEventListener("load", renderQuestion, false);
+        </script>
+        <!---------------------------------------------------->
+        
+        <!--------------------------------------------------DRAGGING SCRIPT-------------------------------------------------->
+        <script type ="text/javascript">
+            var paraC = document.createElement("p");
+            var paraW = document.createElement("p");
+            var correct = document.createTextNode("Good Choice!");
+            var wrong = document.createTextNode("Not Quite!");
+            $(function() {
+                $( "#yesDrag, #yesDrag1, #yesDrag2, #yesDrag3, #yesDrag4" ).draggable({
+                                                                                drag: function(event, ui){
+                                                                                    paraC.appendChild(correct);
+                                                                                    $(this)[0].appendChild(paraC);
+                                                                                }
+                                                                                
+                });
+                $( "#noDrag, #noDrag1, #noDrag2, #noDrag3, #noDrag4" ).draggable({
+                                                                    helper:"clone",
+                                                                    revert: true,
+                                                                    drag: function(event, ui){
+                                                                           paraW.appendChild(wrong);
+                                                                           $(this)[0].appendChild(paraW);
+                                                                    }
+                });
+          });
+     </script>
+     <!---------------------------------------------------->
+     
+     <!--------------------------------------------------LOGO SCRIPT-------------------------------------------------------->
+     <script>
+            window.addEventListener("load", init);
+            var counter = 0;
+            logoImage = new Image();
+            TO_RADIANS = Math.PI/180;
+            logoImage.src = 'mylogo.png';
+            var canvas = document.getElementById('canvas1');
+            var context = canvas.getContext('2d');
+            function init(){
+                setInterval(loop, 2000/30);
+    
+            }
+            function loop() {
+                context.clearRect(0,0,canvas.width, canvas.height);
+                drawRotatedImage(logoImage,210,175,counter+90);
+                counter+=2;
+            }
+            function drawRotatedImage(image, x, y, angle) {
+                context.save();
+                context.translate(x/.8, y/.75);
+                context.rotate(angle * TO_RADIANS);
+                context.drawImage(image, -(image.width/2), -(image.height/2));
+                context.restore();
+            }
+     </script>
+     <script>$('#widget').draggable();</script>
+     <script>
+         window.addEventListener("load", setHalfVolume);
+         function setHalfVolume() {
+             var myAudio = document.getElementById("aud");
+             myAudio.volume = 0.045;
+         }
+         </script>
+    </body>
+</html>

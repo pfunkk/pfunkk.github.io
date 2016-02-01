@@ -1,0 +1,172 @@
+body {
+    background: url( white-background--nutrition--eggs--objects_3320953.jpg);
+    background-repeat:repeat-y;
+    background-position:center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+h1{
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p{
+    display:inline-block;
+    background: #0493e5;
+    filter:alpha(opacity=90);
+    opacity:0.9;
+    color: #e9e9e9;
+    font-family: "Century Gothic", arial, sans-serif;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 5px 5px 10px;
+    margin:10px;
+}
+h2{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: white;
+    font-family:"Impact";
+    font-size: 300%;
+    line-height: 100%;
+}
+h5{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: white;
+    font-family:"Impact";
+    font-size: 100%;
+    line-height: 100%;
+    
+}
+input {
+    width: 17px;
+    height: 17px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position:relative;
+    top: -1px;
+    *overflow:hidden;
+    text-indent:5;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+.custom-navbar ul li a {
+    background: #67497a; /* Old browsers */
+    background: linear-gradient( #0493e5,#946ab1 ) repeat scroll 0 0 #0493e5 !important;
+    background: -moz-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* FF3.6+ */
+    background: -webkit-linear-gradient( #0493e5,#946ab1) repeat scroll 0 0 #0493e5 !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67497a', endColorstr='#946ab1',GradientType=0 ); /* IE6-9 */
+    
+    
+}
+.custom-navbar ul li a.ui-btn-active {
+    background: linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important;
+    background: #67497a; /* Old browsers */
+    background: linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* FF3.6+ */
+    background: -webkit-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5393C5', endColorstr='#6FACD5',GradientType=0 ); /* IE6-9 */
+}
+#tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #946ab1;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+}
+
+#tooltip:after /* triangle decoration */
+{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #111;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+
+#tooltip.top:after
+{
+    border-top-color: transparent;
+    border-bottom: 10px solid #111;
+    top: -20px;
+    bottom: auto;
+}
+
+#tooltip.left:after
+{
+    left: 10px;
+    margin: 0;
+}
+
+#tooltip.right:after
+{
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+#backgroundaudio {
+    display: block;
+    position: fixed;
+    bottom: -43px;
+    left: 5px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#backgroundaudio:hover {
+    bottom
+    : 0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#backgroundaudio audio {
+    background: transparent;
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 43px;
+    z-index: 9998;
+}
+#backgroundaudio i {
+    font-size: 40px;
+    display: block;
+    background: transparent;
+    padding: 5px;
+    width: 50px;
+    float: none;
+    margin-bottom: -1px;
+    z-index: 9999;
+}
+.ui-widget-header p, .ui-widget-content p { margin: 0; }
+#droppable {
+    height: 100px;
+    text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+.ui-mobile-viewport-transitioning .ui-page {
+    overflow-y: overlay;
+}
+.center { margin: 0 auto; width: 100%;
